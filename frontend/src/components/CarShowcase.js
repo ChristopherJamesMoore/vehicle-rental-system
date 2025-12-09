@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import './CarShowcase.css';
 import bydSeal from '../assets/byd-seal.webp';
 import lexusEs from '../assets/lexus-es.jpg';
@@ -45,9 +44,7 @@ const CarShowcase = () => {
           <div className="showcase-content">
             <h1>{car.name}</h1>
             <p>Find the perfect car for your next adventure.</p>
-            <Link to="/cars">
-              <button className="showcase-btn">Explore Cars</button>
-            </Link>
+            <button href="/cars" className="showcase-btn">Explore Cars</button>
           </div>
         </div>
       ))}
