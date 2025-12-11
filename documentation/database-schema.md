@@ -1,4 +1,4 @@
-# MongoDB Database Schema
+# My Database Schema
 
 This document outlines the schema for the MongoDB database used in the vehicle rental system.
 
